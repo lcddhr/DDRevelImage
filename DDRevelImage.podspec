@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DDRevelImage"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "缓慢加载图片"
 
   s.description  = <<-DESC
@@ -78,7 +78,9 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lcddhr/DDRevelImage.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/lcddhr/DDRevelImage.git", :tag => "v1.0.1" }
+
+
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
