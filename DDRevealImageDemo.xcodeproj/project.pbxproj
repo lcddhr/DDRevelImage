@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		703FD1A41BD0CD72004A9E44 /* SlowRevelImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703FD1A31BD0CD72004A9E44 /* SlowRevelImageController.m */; };
+		703FD1A81BD0D58F004A9E44 /* UIView+RevealAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 703FD1A71BD0D58F004A9E44 /* UIView+RevealAnimation.m */; };
 		70C8F8E51BD097F100E9BD97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8E41BD097F100E9BD97 /* main.m */; };
 		70C8F8E81BD097F100E9BD97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8E71BD097F100E9BD97 /* AppDelegate.m */; };
 		70C8F8EB1BD097F100E9BD97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8EA1BD097F100E9BD97 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		70C8F8F01BD097F100E9BD97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C8F8EF1BD097F100E9BD97 /* Images.xcassets */; };
 		70C8F8F31BD097F100E9BD97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C8F8F11BD097F100E9BD97 /* LaunchScreen.xib */; };
 		70C8F8FF1BD097F100E9BD97 /* DDRevealImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8FE1BD097F100E9BD97 /* DDRevealImageDemoTests.m */; };
-		70C8F90B1BD0988F00E9BD97 /* UIView+RevealAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F90A1BD0988F00E9BD97 /* UIView+RevealAnimation.m */; };
 		70C8F90E1BD0A31900E9BD97 /* testimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C8F90D1BD0A31900E9BD97 /* testimage.jpg */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +32,8 @@
 /* Begin PBXFileReference section */
 		703FD1A21BD0CD72004A9E44 /* SlowRevelImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlowRevelImageController.h; sourceTree = "<group>"; };
 		703FD1A31BD0CD72004A9E44 /* SlowRevelImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlowRevelImageController.m; sourceTree = "<group>"; };
+		703FD1A61BD0D58F004A9E44 /* UIView+RevealAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RevealAnimation.h"; sourceTree = "<group>"; };
+		703FD1A71BD0D58F004A9E44 /* UIView+RevealAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RevealAnimation.m"; sourceTree = "<group>"; };
 		70C8F8DF1BD097F100E9BD97 /* DDRevealImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDRevealImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C8F8E31BD097F100E9BD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C8F8E41BD097F100E9BD97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,8 +47,6 @@
 		70C8F8F81BD097F100E9BD97 /* DDRevealImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDRevealImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C8F8FD1BD097F100E9BD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C8F8FE1BD097F100E9BD97 /* DDRevealImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDRevealImageDemoTests.m; sourceTree = "<group>"; };
-		70C8F9091BD0988F00E9BD97 /* UIView+RevealAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RevealAnimation.h"; sourceTree = "<group>"; };
-		70C8F90A1BD0988F00E9BD97 /* UIView+RevealAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RevealAnimation.m"; sourceTree = "<group>"; };
 		70C8F90D1BD0A31900E9BD97 /* testimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,11 +68,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		703FD1A51BD0D58F004A9E44 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				703FD1A61BD0D58F004A9E44 /* UIView+RevealAnimation.h */,
+				703FD1A71BD0D58F004A9E44 /* UIView+RevealAnimation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		70C8F8D61BD097F000E9BD97 = {
 			isa = PBXGroup;
 			children = (
+				703FD1A51BD0D58F004A9E44 /* Classes */,
 				70C8F90C1BD0A31900E9BD97 /* Resource */,
-				70C8F9081BD0982500E9BD97 /* Class */,
 				70C8F8E11BD097F100E9BD97 /* DDRevealImageDemo */,
 				70C8F8FB1BD097F100E9BD97 /* DDRevealImageDemoTests */,
 				70C8F8E01BD097F100E9BD97 /* Products */,
@@ -129,15 +138,6 @@
 				70C8F8FD1BD097F100E9BD97 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		70C8F9081BD0982500E9BD97 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				70C8F9091BD0988F00E9BD97 /* UIView+RevealAnimation.h */,
-				70C8F90A1BD0988F00E9BD97 /* UIView+RevealAnimation.m */,
-			);
-			path = Class;
 			sourceTree = "<group>";
 		};
 		70C8F90C1BD0A31900E9BD97 /* Resource */ = {
@@ -250,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C8F8EB1BD097F100E9BD97 /* ViewController.m in Sources */,
+				703FD1A81BD0D58F004A9E44 /* UIView+RevealAnimation.m in Sources */,
 				70C8F8E81BD097F100E9BD97 /* AppDelegate.m in Sources */,
-				70C8F90B1BD0988F00E9BD97 /* UIView+RevealAnimation.m in Sources */,
 				703FD1A41BD0CD72004A9E44 /* SlowRevelImageController.m in Sources */,
 				70C8F8E51BD097F100E9BD97 /* main.m in Sources */,
 			);
