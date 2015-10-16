@@ -1,0 +1,10 @@
+PODS:
+  - DDRevelImage (1.0.1)
+
+DEPENDENCIES:
+  - DDRevelImage (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  DDRevelImage: ac55e3ad37525fe31c0704c6ce45afe2ff551c50
+
+COCOAPODS: 0.37.2

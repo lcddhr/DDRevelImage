@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		703FD1A41BD0CD72004A9E44 /* SlowRevelImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 703FD1A31BD0CD72004A9E44 /* SlowRevelImageController.m */; };
-		703FD1A81BD0D58F004A9E44 /* UIView+RevealAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 703FD1A71BD0D58F004A9E44 /* UIView+RevealAnimation.m */; };
 		70C8F8E51BD097F100E9BD97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8E41BD097F100E9BD97 /* main.m */; };
 		70C8F8E81BD097F100E9BD97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8E71BD097F100E9BD97 /* AppDelegate.m */; };
 		70C8F8EB1BD097F100E9BD97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8EA1BD097F100E9BD97 /* ViewController.m */; };
@@ -17,6 +16,7 @@
 		70C8F8F31BD097F100E9BD97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C8F8F11BD097F100E9BD97 /* LaunchScreen.xib */; };
 		70C8F8FF1BD097F100E9BD97 /* DDRevealImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8F8FE1BD097F100E9BD97 /* DDRevealImageDemoTests.m */; };
 		70C8F90E1BD0A31900E9BD97 /* testimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70C8F90D1BD0A31900E9BD97 /* testimage.jpg */; };
+		F5BDEB3C43357D09F14CEE41 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0990CFCB9D8B70C637E5173 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,10 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2770625765471BAEC6D14624 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		703FD1A21BD0CD72004A9E44 /* SlowRevelImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlowRevelImageController.h; sourceTree = "<group>"; };
 		703FD1A31BD0CD72004A9E44 /* SlowRevelImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlowRevelImageController.m; sourceTree = "<group>"; };
-		703FD1A61BD0D58F004A9E44 /* UIView+RevealAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RevealAnimation.h"; sourceTree = "<group>"; };
-		703FD1A71BD0D58F004A9E44 /* UIView+RevealAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RevealAnimation.m"; sourceTree = "<group>"; };
 		70C8F8DF1BD097F100E9BD97 /* DDRevealImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDRevealImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C8F8E31BD097F100E9BD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C8F8E41BD097F100E9BD97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +47,8 @@
 		70C8F8FD1BD097F100E9BD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70C8F8FE1BD097F100E9BD97 /* DDRevealImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDRevealImageDemoTests.m; sourceTree = "<group>"; };
 		70C8F90D1BD0A31900E9BD97 /* testimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimage.jpg; sourceTree = "<group>"; };
+		77AD50AAB9A57F5F3DBC7427 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E0990CFCB9D8B70C637E5173 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BDEB3C43357D09F14CEE41 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,23 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		703FD1A51BD0D58F004A9E44 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				703FD1A61BD0D58F004A9E44 /* UIView+RevealAnimation.h */,
-				703FD1A71BD0D58F004A9E44 /* UIView+RevealAnimation.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		70C8F8D61BD097F000E9BD97 = {
 			isa = PBXGroup;
 			children = (
-				703FD1A51BD0D58F004A9E44 /* Classes */,
 				70C8F90C1BD0A31900E9BD97 /* Resource */,
 				70C8F8E11BD097F100E9BD97 /* DDRevealImageDemo */,
 				70C8F8FB1BD097F100E9BD97 /* DDRevealImageDemoTests */,
 				70C8F8E01BD097F100E9BD97 /* Products */,
+				7861924A81684B9474026283 /* Pods */,
+				F5A516BFDCC5041A19B8601B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +142,23 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		7861924A81684B9474026283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2770625765471BAEC6D14624 /* Pods.debug.xcconfig */,
+				77AD50AAB9A57F5F3DBC7427 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5A516BFDCC5041A19B8601B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0990CFCB9D8B70C637E5173 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70C8F9021BD097F100E9BD97 /* Build configuration list for PBXNativeTarget "DDRevealImageDemo" */;
 			buildPhases = (
+				C152356C08A7CF4FFC77324E /* Check Pods Manifest.lock */,
 				70C8F8DB1BD097F000E9BD97 /* Sources */,
 				70C8F8DC1BD097F000E9BD97 /* Frameworks */,
 				70C8F8DD1BD097F000E9BD97 /* Resources */,
+				0B928FE0AF4F7985861EE1AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,13 +257,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B928FE0AF4F7985861EE1AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C152356C08A7CF4FFC77324E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70C8F8DB1BD097F000E9BD97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				70C8F8EB1BD097F100E9BD97 /* ViewController.m in Sources */,
-				703FD1A81BD0D58F004A9E44 /* UIView+RevealAnimation.m in Sources */,
 				70C8F8E81BD097F100E9BD97 /* AppDelegate.m in Sources */,
 				703FD1A41BD0CD72004A9E44 /* SlowRevelImageController.m in Sources */,
 				70C8F8E51BD097F100E9BD97 /* main.m in Sources */,
@@ -377,6 +422,7 @@
 		};
 		70C8F9031BD097F100E9BD97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2770625765471BAEC6D14624 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDRevealImageDemo/Info.plist;
@@ -387,6 +433,7 @@
 		};
 		70C8F9041BD097F100E9BD97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AD50AAB9A57F5F3DBC7427 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDRevealImageDemo/Info.plist;
